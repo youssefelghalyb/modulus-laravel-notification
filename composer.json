@@ -10,11 +10,13 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
-        "illuminate/mail": "^8.0|^9.0|^10.0|^11.0",
-        "twilio/sdk": "^8.3",
-        "vonage/client": "^4.1"
+        "php": "^8.2",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/mail": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "suggest": {
+        "twilio/sdk": "Required for SMS notifications via Twilio (^8.3)",
+        "vonage/client": "Required for SMS notifications via Vonage (^4.1)"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.0.1"
